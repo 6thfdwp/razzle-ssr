@@ -1,0 +1,41 @@
+body {
+  margin-top: 5px;
+  padding: 5px;
+  font-family: sans-serif;
+}
+
+.category-link {
+  padding: 10px 10px;
+}
+
+.barcode-scanner {
+  border-radius: 80px;
+  /* border-color: bisque; */
+  background-color: bisque;
+  height: 160px;
+  width: 160px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+.video-overlay {
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/opacity */
+  height: 0;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  z-index: 100;
+  transition: 0.5s;
+}
+.video-overlay-shown {
+  height: 100%;
+  transition: 0.5s;
+}
+.closebtn {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
